@@ -98,3 +98,8 @@ local.properties
 
 # Code Recommenders
 .recommenders/
+
+
+# Project Ignore
+
+auth.json
