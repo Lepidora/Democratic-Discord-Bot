@@ -1,0 +1,28 @@
+{
+  "name": "Democratic-Discord-Bot",
+  "version": "1.0.0",
+  "description": "A Discord bot to democratically perform admin actions",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lepidora/Democratic-Discord-Bot.git"
+  },
+  "keywords": [
+    "Discord",
+    "bot",
+    "democracy"
+  ],
+  "author": "Lepidora",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lepidora/Democratic-Discord-Bot/issues"
+  },
+  "homepage": "https://github.com/Lepidora/Democratic-Discord-Bot#readme",
+  "dependencies": {
+    "discord.js": "^11.2.1"
+  }
+}
