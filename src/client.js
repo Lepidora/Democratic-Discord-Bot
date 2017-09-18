@@ -16,8 +16,17 @@ module.exports = function(client) {
 
 function clientReady(client) {
 	return () => {
-		console.log(`Started on ${client.guilds.size} servers`);
 		
+		var suffix = "";
+		
+		if (client.guilds.size === 1) {
+			suffix = "server";
+		} else {
+			suffix = "servers";
+		}
+		
+		console.log(`Started on ${client.guilds.size} ${suffix}`);
+			
 		if (config.game) {
 			client.user.setGame(config.game);			
 		}

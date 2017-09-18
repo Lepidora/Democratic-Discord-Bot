@@ -1,5 +1,5 @@
 {
-  "name": "Democratic-Discord-Bot",
+  "name": "democratic-discord-bot",
   "version": "1.0.0",
   "description": "A Discord bot to democratically perform admin actions",
   "main": "server.js",
@@ -24,5 +24,11 @@
   "homepage": "https://github.com/Lepidora/Democratic-Discord-Bot#readme",
   "dependencies": {
     "discord.js": "^11.2.1"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^3.5.0",
+    "sinon": "^3.2.1",
+    "mocha-sinon": "^2.0.0"
   }
 }
