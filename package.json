@@ -4,7 +4,7 @@
   "description": "A Discord bot to democratically perform admin actions",
   "main": "server.js",
   "scripts": {
-    "test": "npm test",
+    "test": "mocha tests/*.js",
     "start": "node server.js"
   },
   "repository": {
