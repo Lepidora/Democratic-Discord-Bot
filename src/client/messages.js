@@ -3,7 +3,7 @@
  */
 
 module.exports = function(client, config) {
-	return function(message) {
+	return message => {
 		
 	};
 }
