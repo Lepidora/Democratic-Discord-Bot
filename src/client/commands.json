@@ -1,0 +1,18 @@
+{
+	"help": {
+		"usage": "help [command]",
+		"description": "Prints out a list of available commands"
+	},
+	"kick": {
+		"usage": "kick <user> [duration]",
+		"description": "Starts a vote to kick a user with an optional vote duration"
+	},
+	"addrole": {
+		"usage": "addrole <user> <role> [duration]",
+		"description": "Starts a vote to add a role to a user with an optional vote duration"
+	},
+	"removerole": {
+		"usage": "removerole <user> <role> [duration]",
+		"description": "Starts a vote to remove a role from a user with an optional vote duration"
+	}
+}
