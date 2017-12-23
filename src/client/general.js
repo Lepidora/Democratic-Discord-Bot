@@ -6,12 +6,12 @@
 exports.clientReady = (client, config) => {
 	return () => {
 		
-		var suffix = "";
+		var suffix = '';
 		
 		if (client.guilds.size === 1) {
-			suffix = "server";
+			suffix = 'server';
 		} else {
-			suffix = "servers";
+			suffix = 'servers';
 		}
 		
 		console.log(`Started on ${client.guilds.size} ${suffix}`);
